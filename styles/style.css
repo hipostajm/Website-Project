@@ -1,0 +1,10 @@
+:root{
+    --background-color-1: #1f1f1f;
+    --font-1: 'Kanit', 'sans-serif';
+}
+body{
+    background-color: var(--background-color-1);
+    width: 100vw;
+    min-height: 100vh;
+    font-family: var(--font-1);
+}
