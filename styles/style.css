@@ -124,7 +124,7 @@ body > nav hr {
   border-radius: 3rem;
   font-weight: 900;
 }
-@media only screen and (max-width: 764px) {
+@media only screen and (max-width: 768px) {
   .section > h2 {
     display: none;
   }
