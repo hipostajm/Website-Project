@@ -140,6 +140,9 @@ body > nav hr {
   body > nav {
     width: 100px;
   }
+  .account {
+    scale: 0.9;
+  }
 }
 main {
   min-height: 100vh;
