@@ -75,6 +75,7 @@ body > nav hr {
   flex-direction: row;
   border-radius: 2rem;
   transition: 300ms;
+  text-wrap: wrap;
 }
 .section > img {
   margin: 0 0.5rem;
@@ -146,9 +147,15 @@ body > nav hr {
   }
   body > nav {
     width: 100px;
-  }
+  }body > nav hr
   .account {
-    scale: 0.9;
+    scale: 0.95;
+  }
+  .account-name{
+    display: none;
+  }
+  body > nav hr{
+    width: 75%;
   }
 }
 main {
