@@ -79,9 +79,6 @@ body hr {
   border-radius: 2rem;
   transition: 300ms;
 }
-.section > img {
-  margin: 0 0.5rem;
-}
 .section:hover {
   scale: 1.05;
 }
@@ -209,6 +206,17 @@ main > nav{
 .search> img{
   margin: 10px;
   width: 35px;
+}
+.search > input{
+  background: 0;
+  border: 0;
+  width: calc(100% - 65px);
+}
+.search > input:focus{
+  border: 0;
+}
+.search > input::placeholder{
+  color: var(--color-7);
 }
 .products-with-title{
   width: 100%;
