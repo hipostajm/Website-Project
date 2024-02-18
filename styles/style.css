@@ -6,6 +6,7 @@
   --color-5: #ffffff;
   --color-6: #ececec;
   --color-7: #000000;
+  --color-8: #929292;
 
   --font-color-1: #ededed;
   --font-color-2: #767676;
@@ -258,6 +259,13 @@ main > nav{
   flex-direction: column;
   align-items: center;
   color: #1f1f1f;
+  transition: 300ms;
+}
+.product:hover{
+  scale: 1.03;
+}
+.product:active{
+  scale: .97;
 }
 .product h2{
   font-size: 3rem;
@@ -273,7 +281,7 @@ main > nav{
   margin: 20px;
 }
 #checked{
-  scale: 1.1;
+  background-color: var(--color-8);
 }
 
 @media only screen and (max-width: 768px) {
