@@ -2,11 +2,10 @@
   --color-1: #1f1f1f;
   --color-2: #2e2e2e;
   --color-3: #171717;
-  --color-4: #171717;
+  --color-4: #929292;
   --color-5: #ffffff;
   --color-6: #ececec;
   --color-7: #000000;
-  --color-8: #929292;
 
   --font-color-1: #ededed;
   --font-color-2: #767676;
@@ -55,8 +54,8 @@ body > nav {
 body hr {
   width: 85%;
   height: 3px;
-  background-color: var(--color-4);
-  border: 1px solid var(--color-4);
+  background-color: var(--color-3);
+  border: 1px solid var(--color-3);
   border-radius: 10px;
 }
 .main-nav {
@@ -283,7 +282,7 @@ main > nav{
   margin: 20px;
 }
 #checked{
-  background-color: var(--color-8);
+  background-color: var(--color-4);
 }
 
 @media only screen and (max-width: 768px) {
