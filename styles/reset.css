@@ -8,6 +8,6 @@ ul {
 }
 a {
   cursor: pointer;
-  text-decoration: 0;
+  text-decoration: none;
   color: inherit;
 }
