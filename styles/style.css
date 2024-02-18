@@ -27,7 +27,7 @@ body::-webkit-scrollbar {
 body > nav {
   max-height: 100vh;
   background: var(--color-2);
-  width: 250px;
+  min-width: 250px;
   position: sticky;
   top: 0px;
   border: 1rem;
@@ -236,6 +236,10 @@ main > nav{
   font-family: var(--font-2);
   flex-direction: column;
 }
+.title{
+  margin-left: 40px;
+  color: var(--font-color-1);
+}
 .products{
   display: flex;
   padding: 20px;
@@ -246,17 +250,32 @@ main > nav{
 }
 .product{
   height: 400px;
-  background-color: wheat;
+  background-color: var(--color-6);
   flex: 0 1 500px;
-  border-radius: 3rem;
+  border-radius: 4rem;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
+  color: #1f1f1f;
 }
-.title{
-  margin-left: 30px;
-  color: var(--font-color-1);
+.product h2{
+  font-size: 3rem;
 }
+.product h5{
+  font-size: 1.2rem;
+}
+.price{
+  color: var(--color-7);
+}
+.product > img{
+  width: 250px;
+  margin: 20px;
+}
+#checked{
+  scale: 1.1;
+}
+
 @media only screen and (max-width: 768px) {
   .section > h2 {
     display: none;
@@ -272,6 +291,7 @@ main > nav{
   }
   body > nav {
     width: 100px;
+    min-width: 100px;
   }body > nav hr
   .account {
     scale: 0.95;
