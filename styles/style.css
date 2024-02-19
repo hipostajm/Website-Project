@@ -325,6 +325,9 @@ main > header {
     justify-content: center;
     margin-left: 0;
   }
+  .product {
+    border-radius: 3rem;
+  }
   .product > img {
     width: 80%;
   }
