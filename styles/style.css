@@ -325,6 +325,15 @@ main > header {
     justify-content: center;
     margin-left: 0;
   }
+  .product > img {
+    width: 80%;
+  }
+  .product > h1 {
+    font-size: 1.5rem;
+  }
+  .product > h2 {
+    font-size: 2.3rem;
+  }
 }
 
 @media only screen and (max-width: 950px) {
