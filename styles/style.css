@@ -284,6 +284,15 @@ main > header {
   background-color: var(--color-4);
 }
 
+@media only screen and (max-width: 320px){
+  .search > img{
+    display: none;
+  }
+  .search > input{
+    width: 90%;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .section > h2 {
     display: none;
