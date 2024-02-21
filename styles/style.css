@@ -284,12 +284,19 @@ main > header {
   background-color: var(--color-4);
 }
 
-@media only screen and (max-width: 320px){
-  .search > img{
+@media only screen and (max-width: 320px) {
+  .search {
+    display: flex;
+    justify-content: center;
+  }
+  .search > img {
     display: none;
   }
-  .search > input{
+  .search > input {
     width: 90%;
+  }
+  .search > input::placeholder {
+    font-size: 1.2rem;
   }
 }
 
